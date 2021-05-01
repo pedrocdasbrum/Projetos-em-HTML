@@ -1,0 +1,17 @@
+.Cabeçalho{
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  background-color: #D8D8D8;
+  border-collapse: collapse;
+  border: 2px solid #a4a4a4;
+}
+
+.Corpo{
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+  background-color: #E6E6E6;
+  border-collapse: collapse;
+  border: 2px solid #a4a4a4;
+}

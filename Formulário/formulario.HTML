@@ -1,0 +1,43 @@
+<!DOCTYPE html/>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Formulário </title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="Cabeçalho">
+    <header>
+      <h1> Formulário </h1>
+    </header>
+    </div>
+    <div class="Corpo">
+      <fieldset>
+        <legend> Preencha os campos abaixo </legend>
+        <form class="Dados" action="formulario.html" method="post">
+          <label> Nome:<input type="text" required autofocus>*</label>
+          <label> Idade:<input type="number" required>*</label>
+          <label> Senha:<input type="password" required>*</label>
+      <fieldset>
+        <legend> Sexo </legend>
+          <label><input type="radio" name="rdSexo" value="Masculino" checked="checked"> Masculino </label>
+          <label><input type="radio" name="rdSexo" value="Feminino"> Feminino </label>
+      </fieldset>
+      <fieldset>
+        <legend> Hobbys </legend>
+        <label><input type="checkbox" name="correr" id="correr"> Correr </label>
+        <label><input type="checkbox" name="nadar" id="nadar"> Nadar </label>
+        <label><input type="checkbox" name="lutar" id="lutar"> Lutar </label>
+        <label><input type="checkbox" name="ler" id="ler"> Ler </label>
+      </fieldset>
+      <fieldset>
+        <legend> Ações </legend>
+        <input type="submit" name="btncadastrar" value="Cadastrar">
+        <input type="button" name="btnsemacao" value="Botão sem Ação">
+        <input type="reset" name="btnlimpar" value="Limpar">
+      </fieldset>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+table{
+  border: 2px double #088A85
+}
+tr, th, td{
+  border-collapse: collapse;
+   border: 2px solid #0B3B39;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+}
